@@ -1,0 +1,126 @@
+(footprint "Jumper_RG178"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Coaxial cable direct solder connection")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "febc0067-326a-4c1e-bdac-f4bee58f4746")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RG178"
+		(at 0 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8421a10d-802f-430f-b7b0-7c774fa10eb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc9f599f-b658-4d84-9d99-09336050eeb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Coaxial cable direct solder connection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb2e1fdc-d5d4-4ac5-862b-91637b1b84a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.6 -0.8)
+		(end -2.6 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ebb28fb-baec-483d-9719-8694aaba769a")
+	)
+	(fp_line
+		(start -2.6 -0.8)
+		(end 1.775 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f19e178e-3556-4e5a-8d2d-f66a025ebc80")
+	)
+	(fp_line
+		(start -2.6 0.8)
+		(end 1.775 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "738a29fd-1095-4ee7-864d-5253fea36ef4")
+	)
+	(fp_line
+		(start -2.6 1.8)
+		(end -2.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "747b2226-41f4-4848-8f8e-cde2e535d60f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eb5d801c-af2e-4b2d-bd10-ffddb4530d2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 4 1)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "2aa00b1c-8122-43e6-b847-fa5ffad395f7")
+	)
+	(pad "2" smd roundrect
+		(at -4.5 0)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "1118c9af-2cbe-43dd-852f-44ac8104fac7")
+	)
+	(embedded_fonts no)
+)

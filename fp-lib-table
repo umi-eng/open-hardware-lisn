@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Connector_STAUBLI") (type "KiCad") (uri "${KIPRJMOD}/Footprints/Connector_STAUBLI.pretty") (options "") (descr ""))
+	(lib (name "Jumper_Coax") (type "KiCad") (uri "${KIPRJMOD}/Footprints/Jumper_Coax.pretty") (options "") (descr ""))
+	(lib (name "SpringContact_Wurth") (type "KiCad") (uri "${KIPRJMOD}/Footprints/SpringContact_Wurth.pretty") (options "") (descr ""))
+)
