@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 5.0,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,60 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|113250000|-32750000|dd30e141-bb0d-49c3-a411-ec89aa2cb91e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|36400000|-64815000|c1a089f4-7ead-4830-bc23-a14bffe72216|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|37100000|-55367500|a4783618-eea6-4d1a-8fe5-4b22d3f03b6e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|55900000|-25200000|ac3e2d4d-9883-485c-bb6b-77e2d4ee061e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|55900000|-29800000|1daa8e4d-6263-4a50-a7e4-317292b91ecf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|55900000|-35700000|fa62fe86-4748-4ea4-9e1f-57b46cc98dd2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|55900000|-40300000|f5f70002-2280-4db5-b13a-2b989e388243|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|58067500|-54650000|393dc490-ffb9-45e3-86b7-479a5606609b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|61400000|-64815000|20eb2355-9e32-435a-b92b-548f50ae6eaf|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|63900000|-25200000|97ebcd1f-99bc-48b7-9aa2-d3f434db2fd5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|63900000|-29800000|0226916d-e916-4a8d-b33f-4a40a9cb850e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|63900000|-35700000|d2643dbc-21d8-472e-9849-a67a4eec8cae|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|63900000|-40300000|3bb5775d-d824-4039-bcb3-f59412d78186|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -226,9 +279,13 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "bom_rev": "",
@@ -237,7 +294,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v0.1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -481,7 +538,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Connector_STAUBLI",
+      "Jumper_Coax",
+      "SpringContact_Wurth"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -631,6 +692,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Element14",
+          "name": "Element14",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -681,7 +748,7 @@
         "uuid": "2f66f064-6537-4204-a23b-551cfa48c60f"
       }
     ],
-    "used_designators": "TP1,N1,R1-2,R17-18,R20,R25-30,L1,L3-13,D1,D7-12,#PWR1-40,C1-2,C7-9,C11-12,C15,X3-4,X8-9,X13-16,J1-2",
+    "used_designators": "#SYM1-2,R6,R25,N1",
     "variants": []
   },
   "sheets": [
