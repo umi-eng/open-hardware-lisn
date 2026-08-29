@@ -4,6 +4,8 @@ This is a line impedance stabilization network for measuring conducted emissions
 
 This design is intended as a development tool and not suitable for empirical compliance testing.
 
+![3D board render](assets/3d-view.png)
+
 ## References
 
 - [A homemade LISN for precompliance conducted emission tests on DC-DC power supplies - Rhode & Schwarz](https://www.rohde-schwarz.com/au/applications/a-homemade-lisn-for-precompliance-conducted-emission-tests-on-dc-dc-power-supplies_56279-1010752.html)
