@@ -1,0 +1,3 @@
+[submodule "Wurth-Pspice"]
+	path = Wurth-Pspice
+	url = git@github.com:WurthElektronik/Pspice-Library.git
